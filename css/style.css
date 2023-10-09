@@ -212,16 +212,36 @@ first div in the grid  and place it in the grid. */
 
 
  /* Step 8: Write the selector/rule property to style the .text-block class. */
- .text-block{
-  display: flex;
+ .container {
+  position: relative;
+}
+
+.about text-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;}
+
+  .text-block h2{
+    text-align: center;  
+  }
+
+  .text-block p{
+    text-align: center;  
+  }
+
+  /* display: flex;
   justify-content: center;
   /* align-items: center; */
-  text-align: center;
-  flex-direction: column;
+  /* text-align: center;
+  flex-direction: column; */ 
+
+  
 
 
 
- }
+ 
  
 
 
